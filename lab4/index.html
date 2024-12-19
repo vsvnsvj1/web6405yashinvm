@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   AI HUB - Главная
+  </title>
+  <link href="css/style.css" rel="stylesheet"/>
+  <link href="css/index.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <header id="header">
+   <div class="logo">
+    <a href="index.html">
+     <img alt="AI HUB logo" class="logo-icon" src="images/logo.svg"/>
+    </a>
+   </div>
+   <nav>
+    <a class="active" href="index.html">
+     Главная
+    </a>
+    <a href="models.html">
+     Модели
+    </a>
+    <a href="resources.html">
+     Ресурсы
+    </a>
+    <a href="contacts.html">
+     О нас
+    </a>
+   </nav>
+  </header>
+  <main>
+   <h2>
+    Добро пожаловать в AI HUB
+   </h2>
+   <p>
+    Здесь вы найдете передовые модели искусственного интеллекта для решения самых разных задач.
+   </p>
+   <p>
+    Переходите на страницы, чтобы ознакомиться с доступными моделями и полезными ресурсами.
+   </p>
+   <section class="features">
+    <h3>
+     Преимущества использования AI HUB
+    </h3>
+    <ul>
+     <li>
+      Доступ к передовым моделям искусственного интеллекта
+     </li>
+     <li>
+      Удобный интерфейс для выбора нужных инструментов
+     </li>
+     <li>
+      Ресурсы для обучения и интеграции ИИ в проекты
+     </li>
+    </ul>
+   </section>
+   <button class="button" id="openFormButton">
+    Получить доступ к моделям
+   </button>
+   <div id="formPopup" class="popup">
+    <div class="popup-content">
+     <h2>Используйте новейшие модели уже сейчас</h2>
+     <form id="userForm">
+      <label for="name">Имя:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="phone">Телефон:</label>
+      <input type="tel" id="phone" name="phone" required>
+      <button type="submit" id="submitInfoButton"> Отправить</button>
+      <button type="button" id="closeFormButton">Закрыть</button>
+     </form>
+    </div>
+   </div>
+  </main>
+  <footer id="footer">
+   <p>
+    © 2024 AI HUB. Все права не защищены.
+   </p>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+ </body>
+</html>
